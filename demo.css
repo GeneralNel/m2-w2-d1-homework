@@ -65,10 +65,14 @@ header {
     grid-gap: 0.5rem;
   }
 
-
-/* Is the screen larger than 600 pixels? Make it two columns.*/
 @media (min-width: 600px) {
-  .cards { 
-      grid-template-columns: repeat(2, 1fr); 
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
+
 }
